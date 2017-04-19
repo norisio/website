@@ -1,8 +1,10 @@
-#!/bin/sh
+#!/bin/bash
+set -x
 
-pushd /var/www/html
-rm -rf *
-popd
-cd `dirname "${0}"`
-cp -r /var/www/html/
+filedir=`dirname "${0}"`
+expr "${0}" : "/.*" > /dev/null || filedir=`(cd "${filedir}" && pwd)`
+cd /var/www/html
+rm -r *
+cd "$filedir"
+cp -r * /var/www/html/
 
