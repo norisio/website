@@ -3,7 +3,7 @@ document.write(`
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -11,7 +11,7 @@ document.write(`
       </button>
       <a class="navbar-brand" href="http://norisio.net">norisio.net</a>
     </div>
-    <div id="navbar" class="navbar-collapse collapse">
+    <div id="navbar-collapse1" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li><a href="./works.html">Works</a></li>
         <li><a href="https://github.com/norisio/" target="_blank">GitHub</a></li>
